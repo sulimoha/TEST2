@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * Display a prompt and wait for the user to type a command.
+ *prompt - display a prompt and wait for the user to type a command.
  */
 void prompt(void)
 {
