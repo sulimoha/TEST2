@@ -1,7 +1,8 @@
 #include "shell.h"
 
 /**
- **_realloc -  changes the size of the memory block pointed to by ptr to size bytes
+ **_realloc -  changes the size of the memory block
+ * pointed to by ptr to size bytes
  *@ptr: pointer
  *@old_size: previous size of the memory block
  *@new_size: new size of the memory block
@@ -34,7 +35,8 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	return (result);
 }
 /**
- * free_cmd_line - deallocates the memory previously allocated to command and line
+ * free_cmd_line - deallocates the memory previously
+ * allocated to command and line
  * @cmd: command pointer
  * @line:line pointer
  * Return: Void
