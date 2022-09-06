@@ -33,7 +33,7 @@ void read_file(char *filename, char **argv)
  * parse_file_line - parse a file as a command line argument
  * @line: command line from file
  * @counter:Error Counter
- * @fp:file descriptor 
+ * @fp:file descriptor
  * @argv: program name
  * Return : void
  */
@@ -63,7 +63,7 @@ void parse_file_line(char *line, int counter, FILE *fp, char **argv)
  * _exiter_file_command - exit the shell in a command file
  * @line: input line from a file
  * @cmd: parsed command
- * @fd: file descriptor 
+ * @fd: file descriptor
  * Return : void
  */
 void _exiter_file_command(char **cmd, char *line, FILE *fd)
